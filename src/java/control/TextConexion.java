@@ -17,6 +17,7 @@ public class TextConexion {
             for (LibroDTO i : lista) {
                 System.out.println(i.toString());
             }
+            MySQL_BD.getInstance().cerrarConexion();
             
             // Crear un nuevo libro
             LibroDTO nuevoLibro = new LibroDTO(12345678, "El Quijote", "Miguel de Cervantes", "Editorial ABC", 1605);

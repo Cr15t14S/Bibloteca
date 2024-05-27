@@ -91,7 +91,6 @@ public class LibroDAO implements Contrato<LibroDTO>{
     @Override
 public LibroDTO read(LibroDTO dto) {
     LibroDTO libro = null;
-    String SQL_READ = "SELECT * FROM tb_libro WHERE isbn = ?";
     Connection con = MySQL_BD.getInstance().cnn;
     PreparedStatement psnt = null;
     ResultSet rs = null;
