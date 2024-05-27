@@ -15,7 +15,7 @@
                 <thead>
                     <tr>
                         <th scope="col">ISBN</th>
-                        <th scope="col">Nombre Libro</th>
+                        <th scope="col">Nombre libro</th>
                         <th scope="col">Autor</th>
                         <th scope="col">Editorial</th>
                         <th scope="col">Año</th>
